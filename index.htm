@@ -7,30 +7,43 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <meta name="description" content="Small winery that produces authentic, premium wines.">
   <meta name="author" content="Ivanic Winery">
-  <meta id="MetaKeywords" name="KEYWORDS" content="Winery, Vinarija, Blaufrankish,Frankovka, Škrlet, Skrlet, Pinot, Two Roses, Dvije Ruže, Risovac, Croatia, Hrvatska, vinarija, vino, red wine, crno vino,crveno vino, white wine, orange, amber, bijelo vino, Moslavina,vinograd, vineyard, butelja, kontinentalna hrvatska, bregovita hrvatska, kutina, zagreb, Pinot Noir, Pinot Crni" />
+  <meta id="MetaKeywords" name="KEYWORDS"
+    content="Winery, Vinarija, Blaufrankish,Frankovka, Škrlet, Skrlet, Pinot, Two Roses, Dvije Ruže, Risovac, Croatia, Hrvatska, vinarija, vino, red wine, crno vino,crveno vino, white wine, orange, amber, bijelo vino, Moslavina,vinograd, vineyard, butelja, kontinentalna hrvatska, bregovita hrvatska, kutina, zagreb, Pinot Noir, Pinot Crni" />
   <meta id="MetaRobots" name="ROBOTS" content="INDEX, FOLLOW" />
- 
+
   <title>Ivanic Winery / Vinarija Ivanić iz Kutine</title>
 
   <!-- Bootstrap core CSS -->
   <link href="files/bootstrap.min.css" rel="stylesheet">
-  
+
   <style>
-    body::after {
-      content: "";
-      background-image: url("files/grb.png");
-      opacity: 0.1;
-      top: 0;
-      left: 0;
-      bottom: 0;
-      right: 0;
-      position: absolute;
-      z-index: -1;
-      background-repeat:no-repeat;
-      background-attachment:scroll;
-      background-position:top;
-      width: auto;
-      height: auto;
+    body {
+      color: white;
+      background-image: url("files/vineyard.png");
+      background-size: cover;
+      background-position: top;
+      background-repeat: no-repeat;
+    }
+
+    .card,
+    footer {
+      background-color: #000000A0;
+    }
+
+    .card-header {
+      background-color: #FFFFFF30;
+    }
+
+    a:hover {
+      color: white;
+      text-decoration: underline;
+      font-weight: bold;
+    }
+
+    a {
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
     }
   </style>
 </head>
@@ -38,20 +51,17 @@
 <body>
 
   <div class="pricing-header px-3 py-3 pt-md-5 pb-md-4 mx-auto text-center">
-    <h1 class="display-4" style="background-color: white; padding:15px;">Ivanic Winery</h1>
-    <p class="lead">
-      <a target="_blank" style="background-color: white; padding:5px;"
-        href="https://www.youtube.com/@ivanic_winery"><img src="files/youtube_social_square_white.png"> YouTube</a><br>
-      <a target="_blank" style="background-color: white; padding:5px;" href="https://www.facebook.com/vinarijaVOI/"><img
-          src="files/Facebook_Logo_Primary.png"> Facebook</a><br>
-    </p>
+
+
+    <h1 class="display-4" style="font-weight: normal;">Ivanic Winery</h1>
+    <img src="files/grb.png" style="width:128px;height: 128 px;">
   </div>
 
   <div class="container">
     <div class="card-deck mb-3 text-center">
       <div class="card mb-4 box-shadow">
         <div class="card-header">
-          <h4 class="my-0 font-weight-normal">Winery</h4>
+          <h4 class="my-0 font-weight-normal">How we make wines?</h4>
         </div>
         <div class="card-body">
 
@@ -65,6 +75,17 @@
               <p>
                 Ultimately, our wines express the character of our vineyard, a character more persistent than the
                 specifics of an individual vintage.
+              </p>
+              <p>Find us on:</p>
+              <p>
+                <a target="_blank" title="Youtube" href="https://www.youtube.com/@ivanic_winery">
+
+                  <img src="files/youtube_social_square_white.png" style="width:56px;height:56px;"></a>
+
+                <a target="_blank" title="Facebook" style="background-color: white; "
+                  href="https://www.facebook.com/vinarijaVOI/"><img src="files/Facebook_Logo_Primary.png"
+                    style="width:56px;height:56px;"></a><br>
+              </p>
             </li>
             </p>
           </ul>
@@ -79,7 +100,7 @@
 
           <ul class="list-unstyled mt-3 mb-4">
             <li>
-              Horeca buyers please contact our distributor <a target="_blank" href="https://www.finewines.hr">Fine Wines
+              HORECA buyers please contact our distributor <a target="_blank" href="https://www.finewines.hr">Fine Wines
                 d.o.o.</a><br>email: info@finewines.hr</li>
           </ul>
 
@@ -105,10 +126,6 @@
 
               <span>Email:</span> info@vina-ivanic.hr
             </li>
-            <li>
-
-              <span>URL:</span> <a href="https://www.vina-ivanic.hr">www.vina-ivanic.hr</a>
-            </li>
             <li><br>
             </li>
 
@@ -119,7 +136,7 @@
             </li>
             <li>
 
-              <span class="lbl">VAT No:</span> 42298712672
+              <span class="lbl">VAT No:</span> HR 42298712672
             </li>
             <li>
 
@@ -134,15 +151,13 @@
       </div>
     </div>
 
-    <footer class="pt-4 my-md-5 pt-md-5 border-top">
+    <footer class="border-top">
       <div class="row">
         <div class="col-12 col-md">
-          <p><span style="background-color: white; padding:5px;">Ivanic Winery © 2024</span>
-          </p>
+          <span style="padding: 20px; float:left;">Ivanic Winery © 2024</span>
         </div>
         <div class="col-12 col-md">
-          <h5><span style="background-color: white; padding:5px;">Privacy</span></h5>
-          <p><span style="background-color: white; padding:5px;">We do not collect private data.</span></p>
+          <span style="padding: 20px; float:right;">We do not collect private data.</span>
         </div>
       </div>
     </footer>
