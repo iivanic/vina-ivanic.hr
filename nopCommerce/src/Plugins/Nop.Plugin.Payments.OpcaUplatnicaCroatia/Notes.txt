@@ -1,0 +1,10 @@
+﻿Simple payment module for wire transfer in Croatia.
+
+Based on Nop.Plugin.Payments.CheckMoneyOrder.
+
+In addition to Nop.Plugin.Payments.CheckMoneyOrder functionality it displays PDF for bank payment and
+Hub3a(Croatian bank association standard for QR codes) QR code to simplify payment via mobile apps.
+
+Requires write permission in wwwroot folder and will create wwwroot/uplatnice folder for temporary storage
+If wwwroot/uplatnice folder exists, plugin needes to have write permission on that folder.
+of PDFs. On creation of PDF, pluigin checks for PDFs older than 1 day and removes them.

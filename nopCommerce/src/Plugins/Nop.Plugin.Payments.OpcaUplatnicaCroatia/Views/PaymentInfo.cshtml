@@ -1,0 +1,18 @@
+﻿@{
+    Layout = "";
+}
+@model Nop.Plugin.Payments.OpcaUplatnicaCroatia.Models.PaymentInfoModel
+<table width="100%" cellpadding="0" cellspacing="0">
+    <tr>
+        <td>
+            @Html.Raw(Model.DescriptionText)
+        
+            <object data="@Html.Raw(Model.fileName)" type="application/pdf" width="100%" height="500px">
+                <p>Nismo uspjeli prikazaati PDF. <a href="Model.filename">Preuzmite uplatnicu</a>.</p>
+            </object>
+
+            <p>Preuzmite <a href="Model.filename">PDF uplatnicu i spremite je</a> kako bi lakše izvršili uplatu.</p>
+
+        </td>
+    </tr>
+</table>

@@ -1,0 +1,11 @@
+﻿{
+  "Group": "Payment methods",
+  "FriendlyName": "HR - opća uplatnica",
+  "SystemName": "Payments.OpcaUplatnicaCroatia",
+  "Version": "1.0.0",
+  "SupportedVersions": [ "4.70" ],
+  "Author": "Igor Ivanic",
+  "DisplayOrder": 1,
+  "FileName": "Nop.Plugin.Payments.OpcaUplatnicaCroatia.dll",
+  "Description": "This plugin enables display of HUB3a PDF for bank payments"
+}
